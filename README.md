@@ -3,7 +3,8 @@ Technical challenge using Cypress, Node.js and JavaScript.<br>
 
 <i>Installing Cypress</i><br>
 Use the command <b>npm install cypress --save-dev</b> inside the project folder.<br>
-Here we have the first test asking Cypress to visit Google homepage, the command is <b>cy.visit('https://wwww.google.com.br/')</b>
+Here we have the first test asking Cypress to visit Google homepage, the command is <b>cy.visit('https://wwww.google.com.br/')</b><br>
+<br>
 <i>Starting to build the test:</i><br>
 We start by adding the function <b>cy.get('.gLFyf') .type ('Magazine Luiza')</b> which can be configured in the own Playground with just a few clicks and it's ready to be pasted into the IDE.<br>
   <b>cy.get('.gLFyf'):</b> go to the search bar <br>
